@@ -1,0 +1,193 @@
+<head>
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="-13">
+<meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+<!-- CSS Stylesheets -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="css/master.css">
+<link rel="stylesheet" href="css/master2.css">
+<link rel="stylesheet" href="css/poetry.css">
+
+<title>John O Bernal</title>
+</head>
+<body>
+
+  <img class="hero" src="../programer for beginners/images/image4.jpg" alt="banner">
+
+  <p class="page-title">John O. Bernal</p>
+  <p class="page-subtitle">Web Developer, web designer, Photo Editor Graphic designer</p>
+
+  <div class="bio-block">
+      <p>I am a Web Developer from Philippines and now I live in the Santo Nino Davao city. After I graduated from Globalways Solution with a degree in Computer Technician, I have
+been working on interesting projects in Saudi Arabia that develop my skill. Here's a portfolio of some of my work. I hope you you consider it!</p>
+  </div>
+
+<hr>
+
+<p class="section-heading">Portfolio</p>
+
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+  <div class="col bm-2">
+    <div class="card h-100">
+      <img src="../programer for beginners/images/gps1.png" class="card-img-top" alt="GPS">
+      <div class="card-body">
+        <h5 class="card-title">Global Pinoy Sulotion</h5>
+        <p class="card-text">Global Pinoy Sulotion is Government Program 2010, that aims to help and gain additinal knowlegde for all Filipino</p>
+        <a href="https://www.facebook.com/ksa.GPS/" target="_blank" class="btn btn-primary">Try It Out</a>
+      </div>
+    </div>
+  </div>
+  <div class="col bm-2">
+    <div class="card h-100">
+      <img src="../programer for beginners/images/sale.png" class="card-img-top" alt="Editing tools">
+      <div class="card-body">
+        <h5 class="card-title">Illustrator Artwork</h5>
+        <p class="card-text">Using Canva Editing plaforms. Simple editing using powerpoint. I can also use other eding tolls like Adobe 
+          photoshop
+        </p>
+        <a href="https://www.canva.com/design/DAFptKk0l6w/pY1pt5b8GdZAui0wnf2VZg/edit" target="_blank" class="btn btn-primary">Take a Closer Look</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col bm-2">
+    <div class="card h-100">
+      <img src="../programer for beginners/images/image2.png" class="card-img-top" alt="MyShopidad">
+      <div class="card-body">
+        <h5 class="card-title">MyShopidad</h5>
+        <p class="card-text">Take a look at my other projects on Shopify it is the online store created as sample personal projects take a look at it!</p>
+        <a href="https://myshopidad.myshopify.com/" target="_blank" class="btn btn-primary">Go to my MyShopidad</a>
+      </div>
+    </div>
+  </div>
+  <div class="col bm-2">
+    <div class="card h-100">
+      <img src="../programer for beginners/images/cv.png" class="card-img-top" alt="Resume">
+      <div class="card-body">
+        <h5 class="card-title">Resume</h5>
+        <p class="card-text">The content of My Resume are my personal data, past work Experience education attainment, and skills, including my work task inside the company, </p>
+        <a href="../programer for beginners/images/John CV.pdf" target="_blank" class="btn btn-primary">Click here to view</a>
+      </div>
+    </div>
+  </div>
+  <div class="col bm-2">
+    <div class="card h-100">
+      <img src="../programer for beginners/images/cv.png" class="card-img-top" alt="Resume">
+      <div class="card-body">
+        <h5 class="card-title">Resume</h5>
+        <p class="card-text">The content of My Resume are my personal data, past work Experience education attainment, and skills, including my work task inside the company, </p>
+        <a href="../programer for beginners/images/John CV.pdf" target="_blank" class="btn btn-primary">Click here to view</a>
+      </div>
+    </div>
+  </div>
+  <div class="col bm-2">
+    <div class="card h-100">
+      <img src="../programer for beginners/images/cv.png" class="card-img-top" alt="Resume">
+      <div class="card-body">
+        <h5 class="card-title">Resume</h5>
+        <p class="card-text">The content of My Resume are my personal data, past work Experience education attainment, and skills, including my work task inside the company, </p>
+        <a href="../programer for beginners/images/John CV.pdf" target="_blank" class="btn btn-primary">Click here to view</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="applet-div">
+  <p class="section-heading">Be a Nature Lover</p>
+
+  <form id="query-form">
+      <div>
+          <label for="plant">Enter the name of a plant:</label> <input class="textfield" id="plant" type="text" name="plant" placeholder="e.g. orchid">
+          </div>
+          <div>
+          <label for="animal">Enter the name of an animal:</label> <input class="textfield" id="animal" type="text" name="animal" placeholder="e.g. dolphin">
+          </div>     
+          <div class="button">
+          <div class="poetry-title" id="poetry-title"></div>
+          <div class="poetry-body" id="poetry-body"></div>
+
+          <input class="btn btn-warning" type="button" value="Reset" id="resetButton" onclick="this.form.reset();resetResults()">
+          <input class="btn btn-primary" type="submit" value="Make / Remake" id="makeButton">
+
+          <div class="poetry-form-message" id="form-message"></div>
+      </div>
+  </form>
+
+
+
+  <p data-toggle="tooltip" data-placement="bottom" title="" onclick="javascript:toolTipReset()" data-original-title="These tags tell you what technologies I use">
+  Powered by :
+  <span class="keyword-magnet">JavaScript</span>
+  <span class="keyword-magnet">JQuery</span>
+  <span class="keyword-magnet">Bootstrap</span>
+</p>
+
+</div>
+
+<hr>
+
+<p class="section-heading">Skill Summary</p>
+
+<p data-toggle="tooltip" data-placement="bottom" title="" onclick="javascript:toolTipReset()" data-original-title="These tags tell you what technologies I use">
+  <span class="keyword-magnet">HTML</span>
+  <span class="keyword-magnet">CSS</span>
+  <span class="keyword-magnet">JavaScript</span>
+  <span class="keyword-magnet">Node.js</span>
+  <span class="keyword-magnet">Java</span>
+  <span class="keyword-magnet">Kotlin</span>
+  <span class="keyword-magnet">Swift</span>
+</p>
+
+<ul>
+  <li>Web developer</li>
+  <li>Web designer</li>
+  <li>Graphic designer</li>
+</ul>
+
+<hr>
+
+<p class="section-heading">Career Highlights</p>
+<p class="section-subheading">City and County of Jeddah Saudi Arabia</p>
+<p class="section-small-heading">Computer Technician, Secretarial</p>
+<ul>
+  <li>TFM Administration Secretary</li>
+  <li>TFM Admin Coordinator</li>
+</ul>
+
+<p class="section-subheading">Mobily Etisalat</p>
+<p class="section-small-heading">Technology Intern</p>
+<ul>
+  <li>TFM Reginal Admin Coordinator</li>
+  <li>TFM Administration Secretary</li>
+</ul>
+
+<hr>
+
+<p class="section-heading">Education</p>
+<p class="section-subheading">Global Ways Solution</p>
+<p class="section-small-heading">Degree of Computer Technician</p>
+<p><a href="https://www.facebook.com/groups/GPSJEDDAH" target="_blank" data-toggle="tooltip" data-placement="bottom" title="" onclick="javascript:toolTipReset()" data-original-title="Tap here to visit my alta mater in beautiful Paris">Visit Global Ways Solution</a></p>
+
+<hr>
+
+<p class="section-heading">Contact</p>
+
+<p>Email: <a href="mailto:bernal.john08@gmail.com" data-toggle="tooltip" data-placement="bottom" title="" onclick="javascript:toolTipReset()" data-original-title="Tap here to email me">bernal.john08@gmail.com</a></p>
+<p>LinkedIn: <a href="https://www.linkedin.com/in/john-bernal-b81149140/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="" onclick="javascript:toolTipReset()" "="" data-original-title="Tap here to visit my LinkedIn page">Visit here my LinkedIn</a></p>
+<p>Facebook: <a href="https://www.facebook.com/profile.php?id=100082372101939" target="_blank" data-toggle="tooltip" data-placement="bottom" title="" onclick="javascript:toolTipReset()" "="" data-original-title="Tap here to visit my facebook page">Visit here FB</a></p>
+
+<hr>
+<img class="hero" src="../programer for beginners/images/urban.png" alt="banner">
+<footer>
+  <p class="copyright-text">© Copyright 2023 all content are owned by John O Bernal</p>
+</footer>
+
+<!-- JQuery Scripts -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<!-- Bootstrap Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<!-- Our codes -->
+<script src="js/main.js"></script>
+<script src="js/poetry.js"></script></body>
+</html>
